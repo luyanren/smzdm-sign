@@ -45,6 +45,4 @@ jobs:
           COOKIE_SMZDM: ${{ secrets.COOKIE_SMZDM }}
 
           PushDeerToken: "${{secrets.PUSHDEER_TOKEN}}"
-          DingtalkSecret: "${{secrets.DINGTALK_SECRET}}"
-          DingtalkToken: "${{secrets.DINGTALK_TOKEN}}"
         run: php check_in.php
